@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="240dp"
+    android:viewportWidth="1000"
+    android:viewportHeight="1200">
+
+    <!-- Círculo exterior naranja -->
+    <path
+        android:fillColor="@color/accent"
+        android:pathData="M500,200 A300,300 0 1,1 500,800 A300,300 0 1,1 500,200"/>
+    
+    <!-- Círculo interior gris -->
+    <path
+        android:fillColor="@color/gray"
+        android:pathData="M500,250 A250,250 0 1,1 500,750 A250,250 0 1,1 500,250"/>
+    
+    <!-- Símbolo geométrico azul -->
+    <path
+        android:fillColor="@color/primary"
+        android:pathData="M500,300 l200,200 l-50,50 l-150,-150 l-150,150 l-50,-50 z
+                         M500,400 l100,100 l-50,50 l-50,-50 l-50,50 l-50,-50 z"/>
+
+    <!-- Texto TRILOGIT -->
+    <path
+        android:fillColor="@color/primary"
+        android:pathData="M250,950 h500 v60 h-500 z"/>
+    
+    <!-- Texto Soluciones Tecnologicas -->
+    <path
+        android:fillColor="@color/primary"
+        android:pathData="M300,1050 h400 v30 h-400 z"/>
+</vector>

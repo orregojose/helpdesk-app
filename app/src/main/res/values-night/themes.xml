@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.MesaAyuda" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary_light</item>
+        <item name="colorPrimaryVariant">@color/primary</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/accent_light</item>
+        <item name="colorSecondaryVariant">@color/accent</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">@color/primary</item>
+        <!-- Background colors -->
+        <item name="android:windowBackground">@color/gray_dark</item>
+        <item name="android:colorBackground">@color/gray_dark</item>
+        <!-- Text colors -->
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@color/gray_light</item>
+        <!-- Button styles -->
+        <item name="materialButtonStyle">@style/Widget.MesaAyuda.Button.Night</item>
+        <item name="textInputStyle">@style/Widget.MesaAyuda.TextInputLayout.Night</item>
+    </style>
+
+    <!-- Button style for night mode -->
+    <style name="Widget.MesaAyuda.Button.Night" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/primary_light</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <!-- TextInputLayout style for night mode -->
+    <style name="Widget.MesaAyuda.TextInputLayout.Night" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@color/primary_light</item>
+        <item name="hintTextColor">@color/primary_light</item>
+        <item name="android:textColorHint">@color/gray_light</item>
+    </style>
+</resources> 
